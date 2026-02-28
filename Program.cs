@@ -11,13 +11,14 @@ namespace TaskStatusProgram
         {
             while (true)
             {
-                Console.WriteLine("Task | To Do List System");
-                Console.WriteLine("1. Add Task");
-                Console.WriteLine("2. View Tasks");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("To Do List System");
+                Console.WriteLine("1. Add a Task");
+                Console.WriteLine("2. View aTasks");
+                Console.WriteLine("3. Exit Program.");
 
                 Console.Write("Choose a option: ");
                 int choices = Convert.ToInt32(Console.ReadLine());
+                
 
                 switch (choices){
                     case 1:
@@ -34,7 +35,7 @@ namespace TaskStatusProgram
                         break;
                 }
 
-                Console.WriteLine("");
+                Console.WriteLine("-------------------");
             }
         }
 

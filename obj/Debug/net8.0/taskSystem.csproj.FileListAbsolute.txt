@@ -1,0 +1,15 @@
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskSystem.exe
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskSystem.deps.json
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskSystem.runtimeconfig.json
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskSystem.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskSystem.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.AssemblyInfoInputs.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.AssemblyInfo.cs
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.csproj.CoreCompileInputs.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.sourcelink.json
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\refint\taskSystem.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.genruntimeconfig.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\ref\taskSystem.dll
