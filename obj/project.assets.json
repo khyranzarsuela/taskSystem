@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "taskManagementAppService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "taskManagementDataService": "1.0.0",
+          "taskManagementModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/taskManagementAppService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/taskManagementAppService.dll": {}
+        }
+      },
+      "taskManagementDataService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "taskManagementModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/taskManagementDataService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/taskManagementDataService.dll": {}
+        }
+      },
+      "taskManagementModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/taskManagementModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/taskManagementModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "taskManagementAppService/1.0.0": {
+      "type": "project",
+      "path": "taskManagementAppService/taskManagementAppService.csproj",
+      "msbuildProject": "taskManagementAppService/taskManagementAppService.csproj"
+    },
+    "taskManagementDataService/1.0.0": {
+      "type": "project",
+      "path": "taskManagementDataService/taskManagementDataService.csproj",
+      "msbuildProject": "taskManagementDataService/taskManagementDataService.csproj"
+    },
+    "taskManagementModels/1.0.0": {
+      "type": "project",
+      "path": "taskManagementModels/taskManagementModels.csproj",
+      "msbuildProject": "taskManagementModels/taskManagementModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "taskManagementAppService >= 1.0.0",
+      "taskManagementDataService >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Raul Alvarez\\.nuget\\packages\\": {},
@@ -38,7 +95,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementAppService\\taskManagementAppService.csproj": {
+              "projectPath": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementAppService\\taskManagementAppService.csproj"
+            },
+            "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskManagementDataService.csproj": {
+              "projectPath": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskManagementDataService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

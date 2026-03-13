@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
+using taskManagementAppService;
+using taskManagementDataService;
 
 namespace TaskStatusProgram
 {
     class Program
     {
-        static List<string> tasks = new List<string>();
+        static taskAppService appService = new taskAppService();
 
         static void Main(string[] args)
         {
@@ -13,52 +14,67 @@ namespace TaskStatusProgram
             {
                 Console.WriteLine("To Do List System");
                 Console.WriteLine("1. Add a Task");
-                Console.WriteLine("2. View aTasks");
+                Console.WriteLine("2. View Tasks");
                 Console.WriteLine("3. Exit Program.");
 
-                Console.Write("Choose a option: ");
-                int choices = Convert.ToInt32(Console.ReadLine());
-                
+                Console.Write("Choose an option: ");
 
-                switch (choices){
+                string input = Console.ReadLine();
+                int choices;
+
+                if (!int.TryParse(input, out choices))
+                {
+                    Console.WriteLine("Invalid input.");
+                    continue;
+                }
+
+                switch (choices)
+                {
                     case 1:
-                        addTask();
+                        AddTask();
                         break;
+
                     case 2:
-                        view();
+                        ViewTasks();
                         break;
+
                     case 3:
                         Environment.Exit(0);
                         break;
+
                     default:
-                        Console.WriteLine("Invalid Option.");
+                        Console.WriteLine("Invalid option.");
                         break;
                 }
-
-                Console.WriteLine("-------------------");
             }
         }
 
-        static void addTask()
+        static void AddTask()
         {
             Console.Write("Enter task: ");
             string task = Console.ReadLine();
-            tasks.Add(task);
+
+            appService.AddTask(task);
+
             Console.WriteLine("Task added successfully!");
         }
 
-        static void view()
+        static void ViewTasks()
         {
+            var tasks = appService.GetTasks();
+
             if (tasks.Count == 0)
             {
                 Console.WriteLine("No tasks available.");
                 return;
             }
 
-            Console.WriteLine("Tasks:");
-            for (int i = 0; i < tasks.Count; i++)
+            int number = 1;
+
+            foreach (var task in tasks)
             {
-                Console.WriteLine($"{i + 1}. {tasks[i]}");
+                Console.WriteLine($"{number}. {task.TaskName}");
+                number++;
             }
         }
     }

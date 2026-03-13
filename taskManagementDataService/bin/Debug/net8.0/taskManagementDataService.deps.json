@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "taskManagementDataService/1.0.0": {
+        "dependencies": {
+          "taskManagementModels": "1.0.0"
+        },
+        "runtime": {
+          "taskManagementDataService.dll": {}
+        }
+      },
+      "taskManagementModels/1.0.0": {
+        "runtime": {
+          "taskManagementModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "taskManagementDataService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "taskManagementModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

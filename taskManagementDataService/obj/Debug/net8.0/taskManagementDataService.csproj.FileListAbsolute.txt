@@ -1,0 +1,16 @@
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\bin\Debug\net8.0\taskManagementDataService.deps.json
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\bin\Debug\net8.0\taskManagementDataService.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\bin\Debug\net8.0\taskManagementDataService.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\bin\Debug\net8.0\taskManagementModels.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\bin\Debug\net8.0\taskManagementModels.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.csproj.AssemblyReference.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.AssemblyInfoInputs.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.AssemblyInfo.cs
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.csproj.CoreCompileInputs.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.sourcelink.json
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskMana.8365EB77.Up2Date
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\refint\taskManagementDataService.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\taskManagementDataService.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementDataService\obj\Debug\net8.0\ref\taskManagementDataService.dll

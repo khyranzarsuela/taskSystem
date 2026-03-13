@@ -13,3 +13,11 @@ C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\refi
 C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.pdb
 C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.genruntimeconfig.cache
 C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\ref\taskSystem.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskManagementAppService.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskManagementDataService.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskManagementModels.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskManagementAppService.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskManagementDataService.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\bin\Debug\net8.0\taskManagementModels.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.csproj.AssemblyReference.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\obj\Debug\net8.0\taskSystem.csproj.Up2Date

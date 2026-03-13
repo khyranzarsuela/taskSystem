@@ -7,4 +7,21 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="taskManagementAppService\**" />
+    <Compile Remove="taskManagementDataService\**" />
+    <Compile Remove="taskManagementModels\**" />
+    <EmbeddedResource Remove="taskManagementAppService\**" />
+    <EmbeddedResource Remove="taskManagementDataService\**" />
+    <EmbeddedResource Remove="taskManagementModels\**" />
+    <None Remove="taskManagementAppService\**" />
+    <None Remove="taskManagementDataService\**" />
+    <None Remove="taskManagementModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="taskManagementAppService\taskManagementAppService.csproj" />
+    <ProjectReference Include="taskManagementDataService\taskManagementDataService.csproj" />
+  </ItemGroup>
+
 </Project>

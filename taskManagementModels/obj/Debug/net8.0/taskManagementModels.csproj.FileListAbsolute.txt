@@ -1,0 +1,12 @@
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\bin\Debug\net8.0\taskManagementModels.deps.json
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\bin\Debug\net8.0\taskManagementModels.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\bin\Debug\net8.0\taskManagementModels.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\taskManagementModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\taskManagementModels.AssemblyInfoInputs.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\taskManagementModels.AssemblyInfo.cs
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\taskManagementModels.csproj.CoreCompileInputs.cache
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\taskManagementModels.sourcelink.json
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\taskManagementModels.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\refint\taskManagementModels.dll
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\taskManagementModels.pdb
+C:\Users\Raul Alvarez\OneDrive\Documents\GitHub\taskSystem\taskManagementModels\obj\Debug\net8.0\ref\taskManagementModels.dll
