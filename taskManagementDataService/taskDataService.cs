@@ -1,27 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using taskManagementModels;
 
 namespace taskManagementDataService
 {
     public class taskDataService
     {
-        public List<taskItem> tasks = new List<taskItem>();
+        ItaskDataService _dataservice;
 
+        public taskDataService(ItaskDataService itaskDataService) { 
+            _dataservice = itaskDataService;
+        }
         public void Add(taskItem task)
         {
-            tasks.Add(task);
+            _dataservice.Add(task);
+        }
+        public taskItem? GetById(Guid id)
+        {
+           return _dataservice.GetById(id);
+        }
+        public taskItem? GetTaskItem(string taskname)
+        {
+          return _dataservice.GetTaskItem(taskname);
         }
 
         public List<taskItem> GetTasks()
         {
-            return tasks;
-        }
-
-        public taskItem? GetById(Guid id)
-        {
-            return tasks.FirstOrDefault(t => t.TaskId == id);
+            return _dataservice.GetTasks();
         }
     }
+
 }

@@ -7,6 +7,8 @@ namespace TaskStatusProgram
     class Program
     {
         static taskAppService appService = new taskAppService();
+        taskDBData db = new taskDBData();
+        
 
         static void Main(string[] args)
         {
@@ -55,7 +57,6 @@ namespace TaskStatusProgram
             string task = Console.ReadLine();
 
             appService.AddTask(task);
-
             Console.WriteLine("Task added successfully!");
         }
 

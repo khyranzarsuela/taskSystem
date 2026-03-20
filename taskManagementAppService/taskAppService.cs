@@ -7,8 +7,12 @@ namespace taskManagementAppService
 {
     public class taskAppService
     {
-        taskDataService TaskDataService = new taskDataService();
+        taskDataService taskdataservice = new taskDataService(new taskDBData());
+       // taskInMemoryData taskinmemorydata = new taskInMemoryData();
 
+        //public taskAppService() { 
+        //taskDBData taskdbdata = new taskDBData();
+        //} 
         public void AddTask(string taskName)
         {
             var task = new taskItem
@@ -17,12 +21,14 @@ namespace taskManagementAppService
                 TaskName = taskName
             };
 
-            TaskDataService.Add(task);
+           // taskinmemorydata.Add(task);
+            taskdataservice.Add(task);
         }
 
         public List<taskItem> GetTasks()
         {
-            return TaskDataService.GetTasks();
+          //  return taskinmemorydata.GetTasks();
+          return taskdataservice.GetTasks();
         }
     }
 }
