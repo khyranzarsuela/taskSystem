@@ -8,14 +8,15 @@ namespace taskManagementDataService
     public class taskInMemoryData
     {
         public List<taskItem> tasks = new List<taskItem>();
-        private taskDBData taskDBData;
+      
+      //  private taskDBData taskDBData;
 
-        public taskInMemoryData() { 
-        }
-        public taskInMemoryData(taskDBData taskDBData)
-        {
-            this.taskDBData = taskDBData;
-        }
+        //public taskInMemoryData() { 
+        //}
+        //public taskInMemoryData(taskDBData taskDBData)
+        //{
+        //    this.taskDBData = taskDBData;
+        //}
 
 
         public void Add(taskItem task)

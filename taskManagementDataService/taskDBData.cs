@@ -48,21 +48,20 @@ namespace taskManagementDataService
         }
         public List<taskItem> GetTasks()
         {
-            var tasks = new List<taskItem>();
-
-            var selectStatement = "SELECT TaskId, TaskName FROM tbl_tasks";
+           var selectStatement = "SELECT TaskId, TaskName FROM tbl_tasks";
             SqlCommand command = new SqlCommand(selectStatement, sqlConnection);
 
             sqlConnection.Open();
             SqlDataReader reader = command.ExecuteReader();
 
+            var tasks = new List<taskItem>();
             while (reader.Read())
             {
-                tasks.Add(new taskItem
-                {
-                    TaskId = reader.GetGuid(0),
-                    TaskName = reader.GetString(1)
-                });
+                taskItem t = new taskItem();
+                t.TaskId = Guid.Parse(reader["TaskId"].ToString());
+                t.TaskName= reader["TaskName"].ToString();
+
+                tasks.Add(t);
             }
 
             sqlConnection.Close();

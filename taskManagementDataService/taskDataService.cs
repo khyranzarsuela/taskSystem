@@ -11,7 +11,8 @@ namespace taskManagementDataService
     {
         ItaskDataService _dataservice;
 
-        public taskDataService(ItaskDataService itaskDataService) { 
+        public taskDataService(ItaskDataService itaskDataService)
+        {
             _dataservice = itaskDataService;
         }
         public void Add(taskItem task)
@@ -20,13 +21,13 @@ namespace taskManagementDataService
         }
         public taskItem? GetById(Guid id)
         {
-           return _dataservice.GetById(id);
+            return _dataservice.GetById(id);
         }
         public taskItem? GetTaskItem(string taskname)
         {
-          return _dataservice.GetTaskItem(taskname);
+            return _dataservice.GetTaskItem(taskname);
         }
-
+         
         public List<taskItem> GetTasks()
         {
             return _dataservice.GetTasks();
@@ -34,3 +35,4 @@ namespace taskManagementDataService
     }
 
 }
+  
