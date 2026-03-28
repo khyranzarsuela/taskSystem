@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementdataservice\\taskjsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|solutionrelative:taskmanagementdataservice\\taskjsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4732D6F0-EA89-48E7-87F1-B35C3F14DE9D}|taskManagementAppService\\taskManagementAppService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementappservice\\taskappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4732D6F0-EA89-48E7-87F1-B35C3F14DE9D}|taskManagementAppService\\taskManagementAppService.csproj|solutionrelative:taskmanagementappservice\\taskappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementdataservice\\itaskdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|solutionrelative:taskmanagementdataservice\\itaskdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementdataservice\\taskdbdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementdataservice\\taskdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|solutionrelative:taskmanagementdataservice\\taskdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementdataservice\\itaskdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|solutionrelative:taskmanagementdataservice\\itaskdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5D9AD67-1E26-447D-8813-D662ABAC28E8}|taskManagementModels\\taskManagementModels.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementmodels\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementdataservice\\taskmanagementdataservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|solutionrelative:taskmanagementdataservice\\taskmanagementdataservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|c:\\users\\raul alvarez\\onedrive\\documents\\github\\tasksystem\\taskmanagementdataservice\\taskjsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9099665F-CDF2-4BF4-8297-A2F4363927EE}|taskManagementDataService\\taskManagementDataService.csproj|solutionrelative:taskmanagementdataservice\\taskjsondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,34 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "taskDataService.cs",
-              "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskDataService.cs",
-              "RelativeDocumentMoniker": "taskManagementDataService\\taskDataService.cs",
-              "ToolTip": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskDataService.cs",
-              "RelativeToolTip": "taskManagementDataService\\taskDataService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAWwA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T01:26:59.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "taskAppService.cs",
-              "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementAppService\\taskAppService.cs",
-              "RelativeDocumentMoniker": "taskManagementAppService\\taskAppService.cs",
-              "ToolTip": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementAppService\\taskAppService.cs",
-              "RelativeToolTip": "taskManagementAppService\\taskAppService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T03:25:04.484Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
@@ -81,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "taskAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementAppService\\taskAppService.cs",
+              "RelativeDocumentMoniker": "taskManagementAppService\\taskAppService.cs",
+              "ToolTip": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementAppService\\taskAppService.cs",
+              "RelativeToolTip": "taskManagementAppService\\taskAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T03:25:04.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "taskDBData.cs",
               "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskDBData.cs",
               "RelativeDocumentMoniker": "taskManagementDataService\\taskDBData.cs",
@@ -88,12 +75,11 @@
               "RelativeToolTip": "taskManagementDataService\\taskDBData.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAIwD8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T03:28:26.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T03:28:26.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ItaskDataService.cs",
               "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\ItaskDataService.cs",
               "RelativeDocumentMoniker": "taskManagementDataService\\ItaskDataService.cs",
@@ -101,16 +87,11 @@
               "RelativeToolTip": "taskManagementDataService\\ItaskDataService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAnwAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T01:08:01.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-03-19T01:08:01.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "taskItem.cs",
               "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementModels\\taskItem.cs",
               "RelativeDocumentMoniker": "taskManagementModels\\taskItem.cs",
@@ -118,12 +99,11 @@
               "RelativeToolTip": "taskManagementModels\\taskItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T03:31:40.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T03:31:40.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -135,7 +115,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "taskJsonData.cs",
+              "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskJsonData.cs",
+              "RelativeDocumentMoniker": "taskManagementDataService\\taskJsonData.cs",
+              "ToolTip": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskJsonData.cs",
+              "RelativeToolTip": "taskManagementDataService\\taskJsonData.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:50:17.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "taskDataService.cs",
+              "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskDataService.cs",
+              "RelativeDocumentMoniker": "taskManagementDataService\\taskDataService.cs",
+              "ToolTip": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskDataService.cs",
+              "RelativeToolTip": "taskManagementDataService\\taskDataService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T01:26:59.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "taskInMemoryData.cs",
               "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskInMemoryData.cs",
               "RelativeDocumentMoniker": "taskManagementDataService\\taskInMemoryData.cs",
@@ -147,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "taskManagementDataService.csproj",
               "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskManagementDataService.csproj",
               "RelativeDocumentMoniker": "taskManagementDataService\\taskManagementDataService.csproj",
@@ -158,16 +163,8 @@
               "WhenOpened": "2026-03-11T03:33:45.711Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "taskJsonData.cs",
-              "DocumentMoniker": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskJsonData.cs",
-              "RelativeDocumentMoniker": "taskManagementDataService\\taskJsonData.cs",
-              "ToolTip": "C:\\Users\\Raul Alvarez\\OneDrive\\Documents\\GitHub\\taskSystem\\taskManagementDataService\\taskJsonData.cs",
-              "RelativeToolTip": "taskManagementDataService\\taskJsonData.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:50:17.851Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
