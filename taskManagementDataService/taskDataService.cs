@@ -19,6 +19,18 @@ namespace taskManagementDataService
         {
             _dataservice.Add(task);
         }
+        public void UpdateTask(taskItem taskItem)
+        {
+           _dataservice.UpdateTask(taskItem);
+        }
+        public void DeleteTask(Guid id)
+        {
+            _dataservice.DeleteTask(id);
+        }
+        public void TaskCompleted(Guid id)
+        {
+           _dataservice.TaskCompleted(id);
+        }
         public taskItem? GetById(Guid id)
         {
             return _dataservice.GetById(id);

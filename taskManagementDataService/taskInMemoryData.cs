@@ -8,8 +8,8 @@ namespace taskManagementDataService
     public class taskInMemoryData
     {
         public List<taskItem> tasks = new List<taskItem>();
-      
-      //  private taskDBData taskDBData;
+
+        //  private taskDBData taskDBData;
 
         //public taskInMemoryData() { 
         //}
@@ -23,7 +23,16 @@ namespace taskManagementDataService
         {
             tasks.Add(task);
         }
+        public void UpdateTask(taskItem task)
+        {
+            var existing = tasks.FirstOrDefault(t => t.TaskId == task.TaskId);
 
+            if (existing != null)
+            {
+                existing.TaskName = task.TaskName;
+                existing.IsCompleted = task.IsCompleted;
+            }
+        }
         public List<taskItem> GetTasks()
         {
             return tasks;

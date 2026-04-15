@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -23,8 +24,8 @@ namespace taskManagementDataService
 
             if (taskItems.Count <= 0)
             {
-                taskItems.Add(new taskItem { TaskId = Guid.NewGuid()});
-                taskItems.Add(new taskItem { TaskName = "Codings" });
+                taskItems.Add(new taskItem { TaskId = Guid.NewGuid(), TaskName = "Codings" });
+              
  
                 SaveDataToJsonFile();
             }
@@ -32,12 +33,12 @@ namespace taskManagementDataService
 
         private void SaveDataToJsonFile()
         {
-            using (var outputStream = File.OpenWrite(_jsonFileName))
+            using (var stream = File.Open(_jsonFileName, FileMode.Create))
             {
-                JsonSerializer.Serialize<List<taskItem>>(
-                    new Utf8JsonWriter(outputStream, new JsonWriterOptions
-                    { SkipValidation = true, Indented = true })
-                    , taskItems);
+                JsonSerializer.Serialize(stream, taskItems, new JsonSerializerOptions
+                {
+                    WriteIndented = true
+                });
             }
         }
 
@@ -54,6 +55,40 @@ namespace taskManagementDataService
         public void Add(taskItem taskItem)
         {
             taskItems.Add(taskItem);
+            SaveDataToJsonFile();
+        }
+        public void UpdateTask(taskItem taskItem)
+        {
+            RetrieveDataFromJsonFile();
+
+            var existingTask = taskItems.FirstOrDefault(x => x.TaskId == taskItem.TaskId);
+            if (existingTask != null)
+            {
+                existingTask.TaskName = taskItem.TaskName;
+            }
+            SaveDataToJsonFile();
+        }
+        public void DeleteTask(Guid id)
+        {
+            RetrieveDataFromJsonFile();
+
+            var existingTask = taskItems.FirstOrDefault(x => x.TaskId == id);
+            if (existingTask != null)
+            {
+                taskItems.Remove(existingTask);
+            }
+            SaveDataToJsonFile();
+        }
+        public void TaskCompleted(Guid id){
+            RetrieveDataFromJsonFile();
+
+            var existingTask = taskItems.FirstOrDefault(x => x.TaskId == id);
+            if (existingTask != null)
+            {
+                existingTask.TaskId = id;
+                existingTask.IsCompleted = true;
+                
+            }
             SaveDataToJsonFile();
         }
         public List<taskItem> GetTasks()
