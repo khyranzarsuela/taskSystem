@@ -5,13 +5,18 @@
     "IsCompleted": false
   },
   {
-    "TaskId": "004a312a-94da-49b5-a484-7bae93a29ac4",
-    "TaskName": "sleep early",
-    "IsCompleted": true
+    "TaskId": "b6cdd6d4-6207-42d8-a09f-72e15530facf",
+    "TaskName": "go to church",
+    "IsCompleted": false
   },
   {
-    "TaskId": "bc2c35f8-732c-4a42-b494-63e73b986a6e",
-    "TaskName": "buys a fruit",
-    "IsCompleted": true
+    "TaskId": "3cee339f-42d3-4dd1-b4e1-8ad2e8c684d0",
+    "TaskName": "go to park",
+    "IsCompleted": false
+  },
+  {
+    "TaskId": "6825def5-5ee5-4d50-b7d4-b5b69e385a13",
+    "TaskName": "go to cinema",
+    "IsCompleted": false
   }
 ]

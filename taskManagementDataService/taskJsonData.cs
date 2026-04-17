@@ -11,7 +11,7 @@ namespace taskManagementDataService
 {
     public class taskJsonData : ItaskDataService
     {
-         private List<taskItem> taskItems = new List<taskItem>();
+        private List<taskItem> taskItems = new List<taskItem>();
         private string _jsonFileName;
         public taskJsonData() { 
         _jsonFileName = $"{AppDomain.CurrentDomain.BaseDirectory}/taskJson.json";
@@ -25,8 +25,6 @@ namespace taskManagementDataService
             if (taskItems.Count <= 0)
             {
                 taskItems.Add(new taskItem { TaskId = Guid.NewGuid(), TaskName = "Codings" });
-              
- 
                 SaveDataToJsonFile();
             }
         }
@@ -93,17 +91,8 @@ namespace taskManagementDataService
         }
         public List<taskItem> GetTasks()
         {
-            RetrieveDataFromJsonFile ();
-            return taskItems;
-        }
-        public taskItem? GetById(Guid id)
-        {
             RetrieveDataFromJsonFile();
-            return taskItems.FirstOrDefault(t => t.TaskId == id);
-        }
-        public taskItem? GetTaskItem(string taskname)
-        {
-            return GetTasks().FirstOrDefault(t => t.TaskName == taskname);
+            return taskItems;
         }
     }
 }

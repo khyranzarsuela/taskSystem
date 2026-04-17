@@ -13,10 +13,6 @@ namespace taskManagementAppService
         taskInMemoryData taskinmemorydata = new taskInMemoryData();
             taskJsonData taskjsondata = new taskJsonData();
 
-        public taskAppService()
-        {
-
-        }
         public void AddTask(string taskName)
         {
             var task = new taskItem
@@ -33,10 +29,7 @@ namespace taskManagementAppService
 
         public List<taskItem> GetTasks()
         {
-
             return taskdataservice.GetTasks();
-              return taskjsondata.GetTasks();
-            return taskinmemorydata.GetTasks();
         }
 
         public void EditTask(Guid id, string newName)
@@ -65,7 +58,7 @@ namespace taskManagementAppService
                 tasks.Remove(task);
                 taskdataservice.DeleteTask(id);
                 taskjsondata.DeleteTask(id);
-                taskinmemorydata.UpdateTask(task);
+                taskinmemorydata.DeleteTask(id);
             }
           
         }
@@ -78,8 +71,8 @@ namespace taskManagementAppService
             {
                 task.IsCompleted = true;
                 taskdataservice.TaskCompleted(id);
-                taskjsondata.TaskCompleted(id);
-                taskinmemorydata.UpdateTask(task);
+            //    taskjsondata.TaskCompleted(id);
+             //   taskinmemorydata.TaskCompleted(id);
             }
         }
     }

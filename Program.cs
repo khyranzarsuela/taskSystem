@@ -20,7 +20,7 @@ namespace TaskStatusProgram
                 Console.WriteLine("3. Edit Task");
                 Console.WriteLine("4. Delete Task ");
                 Console.WriteLine("5. Mark Task as Complete");
-                Console.WriteLine("6. Exit Program.");
+                Console.WriteLine("6. Exit Program");
 
                 Console.Write("Choose an option: ");
 
@@ -201,30 +201,37 @@ namespace TaskStatusProgram
         {
             var tasks = appService.GetTasks();
 
-            if (tasks.Count == 0)
+            var pendingTasks = tasks.Where(t => !t.IsCompleted).ToList();
+
+            if (pendingTasks.Count == 0)
             {
-                Console.WriteLine("No tasks available.");
+                Console.WriteLine("No pending tasks.");
                 Console.WriteLine("-------------------------");
                 return;
             }
-
-            for (int i = 0; i < tasks.Count; i++)
+            else
             {
-                string status = tasks[i].IsCompleted ? "[✔]" : "[ ]";
-                Console.WriteLine($"{i + 1}. {status} {tasks[i].TaskName}");
+                Console.WriteLine("---- Pending Task ----");
+
+                for (int i = 0; i < pendingTasks.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {pendingTasks[i].TaskName}");
+                }
+                Console.WriteLine("-------------------------");
             }
+
 
             Console.Write("Select task number to mark as complete: ");
             int index = Convert.ToInt32(Console.ReadLine()) - 1;
 
-            if (index < 0 || index >= tasks.Count)
+            if (index < 0 || index >= pendingTasks.Count)
             {
                 Console.WriteLine("Invalid selection.");
                 Console.WriteLine("-------------------------");
                 return;
             }
 
-            Guid selectedId = tasks[index].TaskId;
+            Guid selectedId = pendingTasks[index].TaskId;
 
             appService.TaskCompleted(selectedId);
 

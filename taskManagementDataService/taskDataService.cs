@@ -31,15 +31,6 @@ namespace taskManagementDataService
         {
            _dataservice.TaskCompleted(id);
         }
-        public taskItem? GetById(Guid id)
-        {
-            return _dataservice.GetById(id);
-        }
-        public taskItem? GetTaskItem(string taskname)
-        {
-            return _dataservice.GetTaskItem(taskname);
-        }
-         
         public List<taskItem> GetTasks()
         {
             return _dataservice.GetTasks();

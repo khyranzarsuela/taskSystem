@@ -77,21 +77,17 @@ namespace taskManagementDataService
             sqlConnection.Close();
         }
         public void TaskCompleted(Guid id)
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                conn.Open();
+        { 
+                sqlConnection.Open();
 
                 var updateStatement = "UPDATE tbl_tasks SET IsCompleted = @IsCompleted WHERE TaskId = @TaskId";
+                SqlCommand updatecommand = new SqlCommand(updateStatement, sqlConnection);
 
-                using (SqlCommand command = new SqlCommand(updateStatement, conn))
-                {
-                    command.Parameters.AddWithValue("@TaskId", id);
-                    command.Parameters.AddWithValue("@IsCompleted", true);
+                updatecommand.Parameters.AddWithValue("@TaskId", id);
+                updatecommand.Parameters.AddWithValue("@IsCompleted", true);
 
-                    command.ExecuteNonQuery();
-                }
-            }
+                updatecommand.ExecuteNonQuery();
+                sqlConnection.Close();
         }
         public List<taskItem> GetTasks()
         {
@@ -112,19 +108,8 @@ namespace taskManagementDataService
 
                 tasks.Add(t);
             }
-
             sqlConnection.Close();
-
             return tasks;
-        }
-        public taskItem? GetById(Guid id)
-        {
-            return GetTasks().FirstOrDefault(t => t.TaskId == id);
-        }
-
-        public taskItem? GetTaskItem(string taskname)
-        {
-            return GetTasks().FirstOrDefault(t => t.TaskName == taskname);
         }
     }
 }

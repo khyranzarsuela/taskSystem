@@ -5,7 +5,7 @@ using taskManagementModels;
 
 namespace taskManagementDataService
 {
-    public class taskInMemoryData
+    public class taskInMemoryData:ItaskDataService
     {
         public List<taskItem> tasks = new List<taskItem>();
 
@@ -33,14 +33,28 @@ namespace taskManagementDataService
                 existing.IsCompleted = task.IsCompleted;
             }
         }
+        public void DeleteTask(Guid id)
+        {
+            var task = tasks.FirstOrDefault(t => t.TaskId == id);
+
+            if (task != null)
+            {
+                tasks.Remove(task);
+            }
+
+        }
+        public void TaskCompleted(Guid id)
+        {
+            var task = tasks.FirstOrDefault(t => t.TaskId == id);
+
+            if (task != null)
+            {
+                task.IsCompleted = true;
+            }
+        }
         public List<taskItem> GetTasks()
         {
             return tasks;
-        }
-
-        public taskItem? GetById(Guid id)
-        {
-            return tasks.FirstOrDefault(t => t.TaskId == id);
         }
 
     }

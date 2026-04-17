@@ -12,10 +12,7 @@ namespace taskManagementDataService
         void Add(taskItem task);
         void UpdateTask(taskItem taskitem);
         void DeleteTask(Guid id);
-     //   void DeleteTask(taskItem taskItem);
         void TaskCompleted(Guid id);
-        taskItem? GetById(Guid id);
-        taskItem? GetTaskItem(string taskname);
         List<taskItem> GetTasks();
     }
 }
